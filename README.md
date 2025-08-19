@@ -43,4 +43,8 @@ Learning about AI &amp; how to integrate it to any system
 - Used ChatOpenAI, but OpenRouter API (got free models)
 
 ## Day 8:
-### 
+### Personal assistant
+- Continue to watching langgraph course
+- Get acknowledged about how to build complex graphs, subgraphs;
+- "Created" personal assistant (from course).
+I actually understand not that much things, but I think its okay; too much info, its too complex
