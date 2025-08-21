@@ -48,3 +48,7 @@ Learning about AI &amp; how to integrate it to any system
 - Get acknowledged about how to build complex graphs, subgraphs;
 - "Created" personal assistant (from course).
 I actually understand not that much things, but I think its okay; too much info, its too complex
+
+## Day 9
+### From easy to hard
+- 
