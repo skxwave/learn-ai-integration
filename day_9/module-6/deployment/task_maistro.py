@@ -138,7 +138,11 @@ class UpdateMemory(TypedDict):
     update_type: Literal['user', 'todo', 'instructions']
 
 # Initialize the model
-model = ChatOpenAI(model="gpt-4o", temperature=0)
+model = ChatOpenAI(
+    model="deepseek/deepseek-chat-v3-0324:free",
+    temperature=0,
+    base_url="https://openrouter.ai/api/v1"
+)
 
 ## Create the Trustcall extractors for updating the user profile and ToDo list
 profile_extractor = create_extractor(

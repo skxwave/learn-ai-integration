@@ -50,5 +50,6 @@ Learning about AI &amp; how to integrate it to any system
 I actually understand not that much things, but I think its okay; too much info, its too complex
 
 ## Day 9
-### From easy to hard
-- 
+### Deployment
+- Building & running docker image with langgraph-cli
+- Playing around with langgraph API

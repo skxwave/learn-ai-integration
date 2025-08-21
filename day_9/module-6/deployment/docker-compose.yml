@@ -3,7 +3,7 @@ volumes:
         driver: local
 services:
     langgraph-redis:
-        image: redis:6
+        image: redis:latest
         healthcheck:
             test: redis-cli ping
             interval: 5s
@@ -12,7 +12,7 @@ services:
         ports:
             - "6379:6379"
     langgraph-postgres:
-        image: postgres:16
+        image: postgres:latest
         ports:
             - "5432:5432"
         environment:
@@ -28,7 +28,7 @@ services:
             retries: 5
             interval: 5s
     langgraph-api:
-        image: "my-image"
+        image: "test-langgraph-api"
         ports:
             - "8123:8000"
         depends_on:
@@ -38,6 +38,6 @@ services:
                 condition: service_healthy
         environment:
             REDIS_URI: redis://langgraph-redis:6379
-            OPENAI_API_KEY: "your_openai_api_key"
-            LANGSMITH_API_KEY: "your_langsmith_api_key"
+            OPENAI_API_KEY: "***REMOVED***"
+            LANGSMITH_API_KEY: "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"
             POSTGRES_URI: postgres://postgres:postgres@langgraph-postgres:5432/postgres?sslmode=disable
