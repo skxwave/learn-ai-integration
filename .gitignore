@@ -195,3 +195,9 @@ cython_debug/
 
 # Langgraph
 .langgraph_api
+
+# Private data
+accounts.db
+accounts.txt
+test.json
+eth_tweets.json
