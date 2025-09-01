@@ -8,6 +8,7 @@ dependencies = [
     "ddgs>=9.5.2",
     "faiss-cpu>=1.11.0",
     "fastapi[standard]>=0.115.12",
+    "ipython>=9.5.0",
     "langchain>=0.3.25",
     "langchain-community>=0.3.24",
     "langchain-huggingface>=0.3.1",
