@@ -1,0 +1,47 @@
+# AI Integration Examples - Requirements
+# Python 3.12+ required
+
+# Search Tools
+ddgs>=9.5.2
+
+# Vector Databases & Search
+faiss-cpu>=1.11.0
+qdrant-client>=1.15.1
+
+# Web Framework
+fastapi[standard]>=0.115.12
+
+# Development Tools
+ipython>=9.5.0
+
+# LangChain Core
+langchain>=0.3.25
+langchain-community>=0.3.24
+langchain-huggingface>=0.3.1
+langchain-ollama>=0.3.3
+langchain-openai>=0.3.18
+langchain-qdrant>=0.2.0
+langchain-tavily>=0.2.11
+
+# LangGraph
+langgraph>=0.4.8
+langgraph-cli[inmem]>=0.3.6
+langgraph-prebuilt>=0.2.2
+
+# Monitoring & Tracing
+langsmith>=0.3.43
+
+# LLM Providers
+openai>=1.82.1
+
+# Configuration & Settings
+pydantic-settings>=2.9.1
+python-dotenv>=1.1.0
+
+# Embeddings
+sentence-transformers>=4.1.0
+
+# Utilities
+tiktoken>=0.9.0
+trustcall>=0.0.39
+twscrape>=0.17.0
